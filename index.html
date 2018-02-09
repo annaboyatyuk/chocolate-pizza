@@ -5,57 +5,61 @@
 <head>
     <meta charset="utf-8" />
     <title>Chocolate-pizza</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-           <img src="img/logo.png" alt="logo">
-           <div>
-               <h1>Delicious</h1>
-               <p>The best food blog on the web</p>
-           </div>
-            <ul>
-                <li>
-                    <img src="img/fb-icon.png" alt="facebook icon">
-                </li>
-                <li>
-                    <img src="img/twit-icon.png" alt="twitter icon">
-                </li>
-                <li>                        
-                    <img src="img/gp-icon.png" alt="google plus icon">
-                </li>
-                <li>
-                    <img src="img/.png" alt="instagram icon">
-                </li>
-                <li>                        
-                    <img src="img/flic-icon.png" alt="flickr icon">
-                </li>
-                <li>
-                    <img src="img/pint-icon.png" alt="pintrest icon">
-                </li>
-            </ul>
-            <ul>
-                <li>                        
-                    <img src="img/rss-icon.png" alt="rss icon">
-                </li>
-                <li>
-                    <img src="img/mail-icon.png" alt="mail icon">
-                </li>
-            </ul>
+            <div>
+                <div class="floatleft">
+                    <img src="img/logo.png" alt="logo">
+                    <h1>Delicious</h1>
+                    <p class="greytext">THE BEST FOOD BLOG ON THE WEB</p>
+                </div>
+                <ul>
+                    <li>
+                        <img src="img/fb-icon.png" alt="facebook icon">
+                    </li>
+                    <li>
+                        <img src="img/twit-icon.png" alt="twitter icon">
+                    </li>
+                    <li>                        
+                        <img src="img/gp-icon.png" alt="google plus icon">
+                    </li>
+                    <li>
+                        <img src="img/.png" alt="">
+                    </li>
+                    <li>                        
+                        <img src="img/flic-icon.png" alt="flickr icon">
+                    </li>
+                    <li>
+                        <img src="img/pint-icon.png" alt="pintrest icon">
+                    </li>
+                </ul>
+                <ul>
+                    <li>                        
+                        <img src="img/rss-icon.png" alt="rss icon">
+                    </li>
+                    <li>
+                        <img src="img/mail-icon.png" alt="mail icon">
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
         <h1>Chocolate Pizza</h1>
         <div>
-        <p>POSTED ON15 DEC 2013/ DESSERTS</p>
-        <img src="" alt="print icon">
+            <p class="greytext">POSTED ON15 DEC 2013/ DESSERTS</p>
+            <img src="" alt="print">
         </div>
 
-        <img src="img/choco-pizza.png" alt="chocolate pizza">
+        <img id="mainpizza" src="img/choco-pizza.png" alt="chocolate pizza">
 
         <div>
             <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
@@ -64,38 +68,39 @@
         </div>
 
         <section>
-            <div id="shopping_list">
-            <ul>
-                <li><input type="checkbox">1 1/2 cup milk</label></li>
-                <li><input type="checkbox">12 cup mascarpone</label></li>
-                <li><input type="checkbox">1/2 tsp pink salt</label></li>
-                <li><input type="checkbox">1 lb Black Mission Figs</label></li>
-                <li><input type="checkbox">1/2 cup brown sugar</label></li>
-                <li><input type="checkbox">2-4 tbsp water</label></li>
-            </ul>
-            <ul>
-                <li><input type="checkbox">1 1/2 cup heavy cream</label></li>
-                <li><input type="checkbox">1/3 granulated sugar </label></li>
-                <li><input type="checkbox">2 egg yolks</label></li>
-                <li><input type="checkbox">1 lemon, juiced</label></li>
-                <li><input type="checkbox">2 tbsp butter</label></li>
-                <li><input type="checkbox">1 cup honey roasted pecans, roughly <br>chopped</br></label></li>
-            </ul>
+            <div id="shoppinglist">
+                <ul>
+                    <li><input type="checkbox">1 1/2 cup milk</label></li>
+                    <li><input type="checkbox">12 cup mascarpone</label></li>
+                    <li><input type="checkbox">1/2 tsp pink salt</label></li>
+                    <li><input type="checkbox">1 lb Black Mission Figs</label></li>
+                    <li><input type="checkbox">1/2 cup brown sugar</label></li>
+                    <li><input type="checkbox">2-4 tbsp water</label></li>
+                </ul>
+                <ul>
+                    <li><input type="checkbox">1 1/2 cup heavy cream</label></li>
+                    <li><input type="checkbox">1/3 granulated sugar </label></li>
+                    <li><input type="checkbox">2 egg yolks</label></li>
+                    <li><input type="checkbox">1 lemon, juiced</label></li>
+                    <li><input type="checkbox">2 tbsp butter</label></li>
+                    <li><input type="checkbox">1 cup honey roasted pecans, roughly <br>chopped</br></label></li>
+                </ul>
             </div>
         </section>
 
-        <div>
-            <img src="img/van-pic.png" alt="picture of vanessa">
+        <div class="vanessa">
+            <img id="vanessapic" src="img/van-pic.png" alt="picture of vanessa">
             <h3>Vanessa Stevenson</h3>
-            <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+            <p class="vanessadesc">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
             <button type="button" name="button">SHARE RECIPE</button>
         </div>
     </main>
 
     <footer>
-        <div>
-            <img src="img/small-logo.png" alt="small logo">
-        </div>
+        <span>
+            <p>_______________________________________________________<img src="img/small-logo.png" alt="small logo">_______________________________________________________</p>
+            
+        </span>
         <div>
             <p>Delicios @ 2013 - All Rights Reserved.</p>
             <p>Poudly published with Ghost</p>

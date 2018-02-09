@@ -1,4 +1,129 @@
 /* styling */
 header nav div h1 {
     font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+}
+
+header {
+    height: 100px;
+    width: 1060px;
+    margin: 30px auto;
+}
+
+.floatleft {
+    float: left;
+}
+
+/* nav {
+    
+} */
+
+header img {
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+header ul li {
+    float: right;
+    margin-top: 10px;
+}
+
+
+
+main {
+    width: 1060px;
+    margin: 0px auto;
+    border-top-style: double;
+    border-top-width: 10px;
+    border-top-color: grey;
+}
+
+main h1 {
+    font-size: 50px;
+    font-family: 'Squada One', cursive;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#mainpizza {
+    width: 1060px;
+    margin: 30px auto;
+}
+
+.greytext {
+    color: grey;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main div img {
+    float: right;
+}
+
+main div p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    text-indent: 30px;
+    font-size: 22px;
+}
+
+main section {
+    margin-top: 30px;
+}
+
+main section div ul {
+    display: inline-block;
+    margin: 60px;
+    font-size: 27px;
+}
+
+#shoppinglist {
+    background-color: rgb(248, 247, 213);
+}
+
+.vanessa {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    border-top-style: double;
+    border-top-width: 10px;
+    border-top-color: grey;
+}
+
+#vanessapic {
+    float: left;
+}
+
+main div h3 {
+    font-size: 25px;
+}
+
+.vanessadesc {
+    width: 70%;
+    font-size: 20px;
+}
+
+main div button {
+    float: right;
+    background-color: rgb(223, 139, 90);
+    font-size: 18px;
+    padding: 20px;
+}
+
+footer {
+    height: 150px;
+    width: 1060px;
+    margin: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer div {
+    margin-top: 40px;
+}
+
+footer span {
+    display: inline-block;
 }
